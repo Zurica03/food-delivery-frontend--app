@@ -7,6 +7,12 @@
   flex-wrap: wrap;
   gap: 2rem;
   font-size: 0.95rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.footer * {
+  color: inherit;
 }
 
 .footer h3 {
@@ -21,7 +27,7 @@
 }
 
 .footer a {
-  color: #ccc;
+  color: #eeeeee; /* brighter for better contrast */
   text-decoration: none;
   display: block;
   margin: 0.4rem 0;
@@ -32,6 +38,12 @@
   color: #ffffff;
 }
 
+.footer p,
+.footer span {
+  color: #f5f5f5;
+  text-align: left;
+}
+
 .social-icons {
   margin-top: 1rem;
 }
@@ -40,7 +52,7 @@
   width: 24px;
   margin-right: 10px;
   cursor: pointer;
-  filter: brightness(0.9);
+  filter: brightness(1) contrast(1.1);
   transition: filter 0.3s;
 }
 
