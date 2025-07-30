@@ -1,0 +1,233 @@
+.Cart {
+  padding: 40px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.Cart_items {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.Cart_items_title {
+  display: grid;
+  grid-template-columns: 80px 1fr 100px 100px 100px 60px;
+  gap: 16px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.cartitems-item {
+  display: grid;
+  grid-template-columns: 80px 1fr 100px 100px 100px 60px;
+  gap: 16px;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+
+.cartitems-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cartitems-item p {
+  margin: 0;
+  color: #444;
+}
+
+.cartitems-item p:last-child {
+  font-weight: bold;
+  color: #e53935;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.cartitems-item p:last-child:hover {
+  transform: scale(1.2);
+}
+
+.cart-total-details {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+}
+
+.class-bottom {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+}
+
+.card-total {
+  width: 100%;
+  max-width: 400px;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.card-total h2 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  color: #333;
+}
+
+.div-card-totaldetail {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.div-card-totaldetail b {
+  font-weight: 600;
+}
+
+.class-bottom button {
+  padding: 12px 24px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 16px;
+}
+
+.class-bottom button:hover {
+  background-color: #2563eb;
+}
+
+.card-promo-code {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  margin-top: 24px;
+}
+
+.card-promo-code p {
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #333;
+}
+
+.card-promo-code-input {
+  display: flex;
+  gap: 10px;
+}
+
+.card-promo-code-input input {
+  flex: 1;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.card-promo-code-input button {
+  padding: 10px 16px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.card-promo-code-input button:hover {
+  background-color: #059669;
+}
+
+.class-bottom {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.class-bottom-main {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cart-bottom-section {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+.cart-summary-card {
+  width: 100%;
+  max-width: 350px;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.cart-summary-card h2 {
+  margin-bottom: 16px;
+  font-size: 20px;
+  color: #333;
+}
+
+.summary-line {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.total-line b {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.checkout-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #FF4D4F;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  background-color: #f66923;
+}
+

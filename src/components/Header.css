@@ -1,0 +1,63 @@
+.Header {
+  height: 400px; 
+  background-image: url("/header.png"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white; 
+  position: relative;
+  padding-left: 5%;
+}
+
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem; 
+  z-index: 2;
+  max-width: 50%;
+  padding: 1rem;
+}
+
+
+.header-content h2 {
+  font-weight: 550; 
+  font-family: 'Poppins', sans-serif;
+  font-size: max(4.5vw, 22px); 
+  margin-bottom: 0.5rem;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+
+.header-content p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #f0f0f0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.header-content button{
+  margin-top: 1rem;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(255, 77, 79, 0.2);
+}
+
+.header-content button:hover{
+  background-color: #f66923;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(255, 105, 55, 0.3);
+}
+
